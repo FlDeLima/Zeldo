@@ -1,0 +1,1793 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'fr' Physical Memory: 32712 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+L:\Unity\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+L:/Unity/Projects/Zeldo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61717
+Successfully changed project path to: L:/Unity/Projects/Zeldo
+L:/Unity/Projects/Zeldo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18344] Host "[IP] 192.168.1.92 [Port] 0 [Flags] 2 [Guid] 2919953289 [EditorId] 2919953289 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BNQ9K1A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18344] Host "[IP] 192.168.1.92 [Port] 0 [Flags] 2 [Guid] 2919953289 [EditorId] 2919953289 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BNQ9K1A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 28.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path L:/Unity/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path L:/Unity/Projects/Zeldo/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'L:/Unity/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'L:/Unity/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'L:/Unity/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: L:/Unity/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026308 seconds.
+- Loaded All Assemblies, in  1.008 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.645 seconds
+Domain Reload Profiling: 1653ms
+	BeginReloadAssembly (345ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (33ms)
+	initialDomainReloadingComplete (141ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (343ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (393ms)
+				TypeCache.ScanAssembly (357ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (646ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (506ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (326ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.419 seconds
+Refreshing native plugins compatible for Editor in 5.56 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.390 seconds
+Domain Reload Profiling: 2808ms
+	BeginReloadAssembly (369ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (873ms)
+		LoadAssemblies (630ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (460ms)
+			TypeCache.Refresh (416ms)
+				TypeCache.ScanAssembly (378ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1391ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1015ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (819ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3098 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (56.3 KB). Loaded Objects now: 3560.
+Memory consumption went from 116.7 MB to 116.7 MB.
+Total: 5.548500 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.149100 ms MarkObjects: 4.892500 ms  DeleteObjects: 0.210100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 200611.059754 seconds.
+  path: Assets/PreviousFrameTex.renderTexture
+  artifactKey: Guid(015540b921469804683354c335d15d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreviousFrameTex.renderTexture using Guid(015540b921469804683354c335d15d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e04854f23820b7630918ec2ef84e5f5') in 0.125420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3563.
+Memory consumption went from 67.3 MB to 67.3 MB.
+Total: 3.969300 ms (FindLiveObjects: 0.301400 ms CreateObjectMapping: 0.143900 ms MarkObjects: 3.500900 ms  DeleteObjects: 0.022300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98.156087 seconds.
+  path: Assets/DatamoshEffect.cs
+  artifactKey: Guid(2672f407d0ecd0e45810cbf8a567169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DatamoshEffect.cs using Guid(2672f407d0ecd0e45810cbf8a567169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa7713c4d56c5957dd59faa2724541c') in 0.001201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.693 seconds
+Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.314 seconds
+Domain Reload Profiling: 2005ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (448ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (30ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1314ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (612ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (483ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 3565.
+Memory consumption went from 113.8 MB to 113.8 MB.
+Total: 4.056900 ms (FindLiveObjects: 0.298900 ms CreateObjectMapping: 0.374900 ms MarkObjects: 3.322000 ms  DeleteObjects: 0.059400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.600 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.318 seconds
+Domain Reload Profiling: 1917ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (513ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3088 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 3567.
+Memory consumption went from 114.1 MB to 114.0 MB.
+Total: 3.778000 ms (FindLiveObjects: 0.280100 ms CreateObjectMapping: 0.146600 ms MarkObjects: 3.295000 ms  DeleteObjects: 0.055000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.105506 seconds.
+  path: Assets/DatamoshShader.shader
+  artifactKey: Guid(27d201e3a60e5e644b0e7bc4129ceed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DatamoshShader.shader using Guid(27d201e3a60e5e644b0e7bc4129ceed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cced3f37495b65919d0925fd944c4a5') in 0.014579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.647617 seconds.
+  path: Assets/DatamoshTemporal.mat
+  artifactKey: Guid(57fc3692590f7ba46a92a21b7674aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DatamoshTemporal.mat using Guid(57fc3692590f7ba46a92a21b7674aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c40a871b9d69c10e77b9aa15e2094d2') in 0.144270 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 748.119581 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/hrtHairs.psd
+  artifactKey: Guid(6e496863cb3cb50488a12c25cd09871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/hrtHairs.psd using Guid(6e496863cb3cb50488a12c25cd09871b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdd8719d63363e02630751c2ad34119') in 0.036699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041924 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Pikachu Mouth.png
+  artifactKey: Guid(bbfd78aa291561c4fb868a53d354fab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Pikachu Mouth.png using Guid(bbfd78aa291561c4fb868a53d354fab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0645871619ee32b073fa902a35bcdc2') in 0.031879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.030338 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Pikachu Ear.png
+  artifactKey: Guid(9e099b15e9ef78c428e1f921f49b8bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Pikachu Ear.png using Guid(9e099b15e9ef78c428e1f921f49b8bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273e0b2eb8ce5d391dc7b769ded1a056') in 0.020756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015255 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtHairs.png
+  artifactKey: Guid(258914707efa46f44830ac463e50bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtHairs.png using Guid(258914707efa46f44830ac463e50bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0605c793faff7df7c561b2f1d7e49c') in 0.012233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012306 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/hrtEyes.psd
+  artifactKey: Guid(43cad3d4fb48e7440a63489cea7b2c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/hrtEyes.psd using Guid(43cad3d4fb48e7440a63489cea7b2c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521b30d87e28af345ef06ec653a7c7c4') in 0.021436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013973 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink.fbm/ShoesTop.png
+  artifactKey: Guid(6858f1d52a188424caeae6521a37e1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink.fbm/ShoesTop.png using Guid(6858f1d52a188424caeae6521a37e1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf4070d130907ca691360f2051179ea') in 0.022185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006840 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink
+  artifactKey: Guid(aead11eae84223546b0ab8375607b242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink using Guid(aead11eae84223546b0ab8375607b242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096967821653d499df3edbfdb2cd516b') in 0.000810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlEyes.png
+  artifactKey: Guid(2584f97faba7ceb41ab517d3a684a7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlEyes.png using Guid(2584f97faba7ceb41ab517d3a684a7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2267de8e594ae4fb730edb5ca42190') in 0.021176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005727 seconds.
+  path: Assets/hrtyOcarinaOfTime/pikach.fbm
+  artifactKey: Guid(fc3f87218ea50524ab63050e275dda38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/pikach.fbm using Guid(fc3f87218ea50524ab63050e275dda38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7737f47d0c2783eea2c27441781124e') in 0.000850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005426 seconds.
+  path: Assets/hrtyOcarinaOfTime/naka.fbm/Mouth.png
+  artifactKey: Guid(6da3608894962ce4bbe761cc8f13fde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/naka.fbm/Mouth.png using Guid(6da3608894962ce4bbe761cc8f13fde2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbe5a0ba92afcd5706022a6ce0bd706') in 0.020445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012729 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/Ocarina of Time/ocarinaoftime.mtl
+  artifactKey: Guid(a96aa6be89ae93544abf869888a0326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/Ocarina of Time/ocarinaoftime.mtl using Guid(a96aa6be89ae93544abf869888a0326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa404b383667b658de6415a2d93a0d0') in 0.001538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002931 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/Nose.png
+  artifactKey: Guid(1cbfb3501208191438d7ac610dee06f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/Nose.png using Guid(1cbfb3501208191438d7ac610dee06f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be152693ff9450b8b6967a2837b9d970') in 0.018989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006671 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/pikach.blend
+  artifactKey: Guid(c635f77fdb696354c91fd9cce4b8b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/pikach.blend using Guid(c635f77fdb696354c91fd9cce4b8b827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532c8d4b0465742ebfafa23e57d69e10') in 0.210225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Material4.png
+  artifactKey: Guid(24cf7d363b628084597522db04160b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Material4.png using Guid(24cf7d363b628084597522db04160b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac42176a88cc31d97e378b71a71ccd84') in 0.020260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004007 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbx
+  artifactKey: Guid(d447e1f23b271c84db36f43be5f4da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbx using Guid(d447e1f23b271c84db36f43be5f4da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c861b8295db1118f4b9d1317937e64') in 0.116717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 0.010577 seconds.
+  path: Assets/Nintendo 64 - The Legend of Zelda Ocarina of Time - Hylian Loach/Hyrule Loach/Loach.mtl
+  artifactKey: Guid(aadf02e2c3780be438265264f66f13ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nintendo 64 - The Legend of Zelda Ocarina of Time - Hylian Loach/Hyrule Loach/Loach.mtl using Guid(aadf02e2c3780be438265264f66f13ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e0f08473236f662947153dffa2b3ee') in 0.001259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003771 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/NakaTunic.png
+  artifactKey: Guid(e5db622d206159c4ebf69c5fb1a04f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/NakaTunic.png using Guid(e5db622d206159c4ebf69c5fb1a04f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487fb86b27dadd4d66f1e07bcd920faf') in 0.020346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019633 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtBlade.png
+  artifactKey: Guid(41b1d83ea8b7e4e42a714111d2beb69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtBlade.png using Guid(41b1d83ea8b7e4e42a714111d2beb69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b72c42d86acd39e2616ad6c95015e55') in 0.021011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021538 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink.fbm
+  artifactKey: Guid(309ed46d255ecc14381d36a33fe47dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink.fbm using Guid(309ed46d255ecc14381d36a33fe47dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3016be481fc8fa6bad9720d303b27e92') in 0.000922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005699 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/PikachTunic.png
+  artifactKey: Guid(df2a7e3b7f16d9d4e8acf9697f2b3742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/PikachTunic.png using Guid(df2a7e3b7f16d9d4e8acf9697f2b3742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c938d09b2fb8e409175375404b5c2fd') in 0.019751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003830 seconds.
+  path: Assets/hrtyOcarinaOfTime/pikach.fbm/PikachTunic.png
+  artifactKey: Guid(dc26b9fd39827a84fb9974a986999492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/pikach.fbm/PikachTunic.png using Guid(dc26b9fd39827a84fb9974a986999492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc12ad52c178aa95bf75446806f7a77') in 0.011994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003645 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.blend1
+  artifactKey: Guid(26041b3fc37556449bbbb28f16b4d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.blend1 using Guid(26041b3fc37556449bbbb28f16b4d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4ccc4d8740716abedfb9598347481f') in 0.001226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003594 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Pikachu Mouth.png
+  artifactKey: Guid(1b8af089b1eab324b959d7ba7aa25faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Pikachu Mouth.png using Guid(1b8af089b1eab324b959d7ba7aa25faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444ddd23e14f0d20da062f5ba9475492') in 0.020164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013576 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink.fbm/ShoesBottom.png
+  artifactKey: Guid(d3f8510385dff834d80a7be7b03d1cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink.fbm/ShoesBottom.png using Guid(d3f8510385dff834d80a7be7b03d1cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f559dcc39faa97fd4022e65de4da865') in 0.020842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041541 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Eyes.png
+  artifactKey: Guid(1a8c38bdb04305d4d883ec7b0f395813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Eyes.png using Guid(1a8c38bdb04305d4d883ec7b0f395813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fec588cd9745377c93f4db0581fe45') in 0.022318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009131 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.blend
+  artifactKey: Guid(178f8de1368e4df43b003cf7bc7b5544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.blend using Guid(178f8de1368e4df43b003cf7bc7b5544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ccb0866dacdcf6366c776d5c8ed154') in 0.117034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.010842 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink.fbm/OmlSkirt.png
+  artifactKey: Guid(75b3c6327f5b7a140b5dd4da6f393933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink.fbm/OmlSkirt.png using Guid(75b3c6327f5b7a140b5dd4da6f393933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ae85e3a131ac3ed16fdc6ea5a0d28e') in 0.021038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006688 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlSkirt.png
+  artifactKey: Guid(3a78ac375e9087543a6b15587974b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlSkirt.png using Guid(3a78ac375e9087543a6b15587974b014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c371bf60adb318aa0494c15eb046d57') in 0.012526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017315 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/hrtHands.png
+  artifactKey: Guid(aa2be64290ba0d741b83ab317d311ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/hrtHands.png using Guid(aa2be64290ba0d741b83ab317d311ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc5a9251bce50224c55c4ff972a7da8') in 0.019987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014210 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/Mouth.png
+  artifactKey: Guid(3abfa5b7d4b3fb5488225e57297a6184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/Mouth.png using Guid(3abfa5b7d4b3fb5488225e57297a6184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6058f656d947bb56b143eb92e1ae2b4f') in 0.012133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.027237 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/ShoesTop.png
+  artifactKey: Guid(191907f17c2d4354f94c3f6296ba5054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/ShoesTop.png using Guid(191907f17c2d4354f94c3f6296ba5054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6141c0b572fccd88e00553d6114301') in 0.011830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003150 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Material6.png
+  artifactKey: Guid(0074ef76bde68db40969f6bde04e3ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Material6.png using Guid(0074ef76bde68db40969f6bde04e3ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ff03d66ecda1ff0a3e6445a4ba6c7f') in 0.021073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009730 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/HrtSkirt.png
+  artifactKey: Guid(7830ee69b65815f4da00c6e2133b0faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/HrtSkirt.png using Guid(7830ee69b65815f4da00c6e2133b0faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc05650e92458c3ed3ae8867763dc1cf') in 0.020476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.030263 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlHands.png
+  artifactKey: Guid(728ecd1ef2365e645b43e0ed1873b184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlHands.png using Guid(728ecd1ef2365e645b43e0ed1873b184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4851e121e5434107a658b7a4c47f3e5e') in 0.023178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022095 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/PikachTunic.png
+  artifactKey: Guid(0eda8e1e748e260409b898e3f6a95d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/PikachTunic.png using Guid(0eda8e1e748e260409b898e3f6a95d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4964100c4f5c855a5f113801117ca8ac') in 0.012626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011667 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/ShoesBottom.png
+  artifactKey: Guid(e7f0e1a56f3c8ed4a8801f4c2ac8c253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/ShoesBottom.png using Guid(e7f0e1a56f3c8ed4a8801f4c2ac8c253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e26863897ee6a1b452aef405fb7f012') in 0.012629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003184 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink.fbm/OmlHat.png
+  artifactKey: Guid(f67e7c1ccce31fd4eaa1393f965babf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink.fbm/OmlHat.png using Guid(f67e7c1ccce31fd4eaa1393f965babf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b6e663811d23770b755102470a0438') in 0.019883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009534 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach
+  artifactKey: Guid(1d85b1e272d3c7a4fbc44b19b7f41d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach using Guid(1d85b1e272d3c7a4fbc44b19b7f41d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19506cdc40c70900d1f19a1e8c409d5') in 0.000838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007245 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Pikachu Eyes.psd
+  artifactKey: Guid(a41b96e29606970448756af33b367d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Pikachu Eyes.psd using Guid(a41b96e29606970448756af33b367d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963a4f84b68da1f3f518fc78eaedcb98') in 0.021643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003705 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink/OmlHands.png
+  artifactKey: Guid(74e89379355cb624ca580fd48bd7fa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink/OmlHands.png using Guid(74e89379355cb624ca580fd48bd7fa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c076c721b692440295a604a2991025') in 0.011900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003076 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).obj
+  artifactKey: Guid(b3c1a4db79ec2f74385e9f0c45c29170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).obj using Guid(b3c1a4db79ec2f74385e9f0c45c29170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4eb611299d1cb8394b05f0a0367620') in 0.032500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.014014 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/naka.fbx
+  artifactKey: Guid(a25b933569ac1c9419ffccb5daaa1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/naka.fbx using Guid(a25b933569ac1c9419ffccb5daaa1093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6c3b91c0b775d1201a4160115c7a30') in 0.121492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 114
+========================================================================
+Received Import Request.
+  Time since last request: 0.011228 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/OmlSkirt.png
+  artifactKey: Guid(03bf1c67423e19b458a64881d97295eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/OmlSkirt.png using Guid(03bf1c67423e19b458a64881d97295eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb52910a2c254f7bdd774c1d86bd0b9') in 0.012311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002967 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtSword.png
+  artifactKey: Guid(9eec45c09c1b98f45b4529893fd0e288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtSword.png using Guid(9eec45c09c1b98f45b4529893fd0e288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859a1632fbf6299f2363fa8ca59055b1') in 0.019890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005152 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink.fbm/OmlEyes.png
+  artifactKey: Guid(f43669f45b02ffc45b8e1ae9e980b4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink.fbm/OmlEyes.png using Guid(f43669f45b02ffc45b8e1ae9e980b4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fb9eaa846e1374c06050dd56b4ece5') in 0.012712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011809 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/OmlHat.png
+  artifactKey: Guid(86246d68692ad70468450318a4b9b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/OmlHat.png using Guid(86246d68692ad70468450318a4b9b177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbcd8cf6e03c76eaebca1e0a8f1ff12') in 0.012898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003602 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Material4.png
+  artifactKey: Guid(bb7fd604aa24d2c4092e166f2c8a0a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Material4.png using Guid(bb7fd604aa24d2c4092e166f2c8a0a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a240f41adc35513421f679c7f0808b') in 0.012822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003488 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink/OmlEyes.png
+  artifactKey: Guid(7bce6774291f40248a5d5233706b347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink/OmlEyes.png using Guid(7bce6774291f40248a5d5233706b347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa4f2568d7fdab5bb2ff7c77de955c6') in 0.012238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002933 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlHat.png
+  artifactKey: Guid(05401bd1a6bc2234b882e830e0b22e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlHat.png using Guid(05401bd1a6bc2234b882e830e0b22e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd26e82d3dcbbda163aca5094c04fce') in 0.011809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015814 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/Nose.png
+  artifactKey: Guid(35e14a99a45ba0e4c8cac3470c93f2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/Nose.png using Guid(35e14a99a45ba0e4c8cac3470c93f2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35275f07cffcf3efd659411ce48fece2') in 0.020296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018291 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/naka.blend
+  artifactKey: Guid(d0742d59791568d4f81542edb56af2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/naka.blend using Guid(d0742d59791568d4f81542edb56af2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031fdf6b565859c5089303eb0ca42b31') in 0.153718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 138
+========================================================================
+Received Import Request.
+  Time since last request: 0.001700 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Material6.png
+  artifactKey: Guid(fbdd7f5c8116fb34e8dac1963921ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Material6.png using Guid(fbdd7f5c8116fb34e8dac1963921ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f186e5dedceb1c57af8d5d7466b38187') in 0.018126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002358 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(2065742f4ffce30489824c58f2b26f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(2065742f4ffce30489824c58f2b26f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baae1a618b346d3ef6b0b095f7ed4e3e') in 0.000757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026920 seconds.
+  path: Assets/hrtyOcarinaOfTime/mixamo.com 1.anim
+  artifactKey: Guid(efa772d91ac4421469c5b1b7344dea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/mixamo.com 1.anim using Guid(efa772d91ac4421469c5b1b7344dea3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ffd3804e9aee8d19fa298f077ddd8b') in 0.118914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.016320 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink/OmlSkirt.png
+  artifactKey: Guid(a01c231874aad124199da19fb0671ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink/OmlSkirt.png using Guid(a01c231874aad124199da19fb0671ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0318ae3c3d9f0f6a923258bc4f013b3') in 0.012496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007361 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink.fbm/OmlHands.png
+  artifactKey: Guid(6306354af8148d446b050baaefa708b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink.fbm/OmlHands.png using Guid(6306354af8148d446b050baaefa708b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58939c89903f6a081c9d69e674408ce7') in 0.012993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005454 seconds.
+  path: Assets/hrtyOcarinaOfTime/naka.fbm/Nose.png
+  artifactKey: Guid(71e24e4acc173e7449c50fdbecbdc020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/naka.fbm/Nose.png using Guid(71e24e4acc173e7449c50fdbecbdc020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a009b783171e6cc291f540703a7ea8') in 0.012573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011773 seconds.
+  path: Assets/Scenes/SampleScene/LightingData.asset
+  artifactKey: Guid(a3a1f8e1b6efaaa46b226aabe2d22db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/LightingData.asset using Guid(a3a1f8e1b6efaaa46b226aabe2d22db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc892834d947bbbd0f5e7c9a31682e83') in 0.002118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002667 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtRing.png
+  artifactKey: Guid(efb66e6e01038a94cb448ddcc12817b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtRing.png using Guid(efb66e6e01038a94cb448ddcc12817b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd275dcf162da5e7af03cf74e5a5a66') in 0.020432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014511 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/Skin&Ears.png
+  artifactKey: Guid(515e7bfac502f24408ecdf4e8c6d0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/Skin&Ears.png using Guid(515e7bfac502f24408ecdf4e8c6d0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8fe24de958c9a378b33cce0f482e276') in 0.019707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003239 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/README.txt
+  artifactKey: Guid(0ccf0b5fd973f914cb5ffd052b1c2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/README.txt using Guid(0ccf0b5fd973f914cb5ffd052b1c2767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf3e71ae56c41fa7e1b8e6df8b0e60f') in 0.001979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003956 seconds.
+  path: Assets/hrtyOcarinaOfTime/TextCom/ShoesTop.png
+  artifactKey: Guid(09f67623b5fd80f4bad178c8acba5564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/TextCom/ShoesTop.png using Guid(09f67623b5fd80f4bad178c8acba5564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40844de430b04bb84d461d5e2270f37') in 0.011555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035161 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/HrtNose.png
+  artifactKey: Guid(b19424973a6b6fe4aa03b2b32375492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/HrtNose.png using Guid(b19424973a6b6fe4aa03b2b32375492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2be7ef42ca39be67afa130b3bf119a') in 0.011438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003017 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Pikachu Ear.png
+  artifactKey: Guid(2dddf30077d48a5468d155c0a6ea3cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Pikachu Ear.png using Guid(2dddf30077d48a5468d155c0a6ea3cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87a4743281fc987f4b355571b9d11de') in 0.011726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003580 seconds.
+  path: Assets/hrtyOcarinaOfTime/New Animator Controller.controller
+  artifactKey: Guid(ed3b402be3d08584e84a938aee0c8724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/New Animator Controller.controller using Guid(ed3b402be3d08584e84a938aee0c8724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3fc66186b1eace32eddc37237aac687') in 0.118174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.012113 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Pikachu Nose.png
+  artifactKey: Guid(86ea3b6e3472c5f4eb495e365f227a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Pikachu Nose.png using Guid(86ea3b6e3472c5f4eb495e365f227a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa093def9d03f3d2e388b1719e3c66b') in 0.020770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.046797 seconds.
+  path: Assets/hrtyOcarinaOfTime/naka.fbm/Skin&Ears.png
+  artifactKey: Guid(0d00660b3ea6a644ab7557ebe1836c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/naka.fbm/Skin&Ears.png using Guid(0d00660b3ea6a644ab7557ebe1836c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86877a10fef4430f5deda85d764fbe8') in 0.013866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013131 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk
+  artifactKey: Guid(4d29deac56520e548b91a848e5514d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk using Guid(4d29deac56520e548b91a848e5514d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d41c17b75f99db039473df2053a8665') in 0.000955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004938 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtHands.png
+  artifactKey: Guid(f2865611ea24a97419d8ab17879d8ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtHands.png using Guid(f2865611ea24a97419d8ab17879d8ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b22ed834bd435f20c4ae326863878e') in 0.012041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005860 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink/OmlMouth.png
+  artifactKey: Guid(82f4002874626ad4b85855962168be9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink/OmlMouth.png using Guid(82f4002874626ad4b85855962168be9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efb144d1165fa3f401e819d9b198ee0') in 0.021492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003742 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/HrtSword.png
+  artifactKey: Guid(85a085a2899eda24ab7d3cbd6f4312a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/HrtSword.png using Guid(85a085a2899eda24ab7d3cbd6f4312a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f886a68b341951e2b5777c326db67374') in 0.020700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002895 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Pikachu Nose.png
+  artifactKey: Guid(926a2cadb1f965a489fad702373a1bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Pikachu Nose.png using Guid(926a2cadb1f965a489fad702373a1bd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583046267bf46a9367f91913520f02d4') in 0.012918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012883 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/PikachHat.png
+  artifactKey: Guid(d4829cc7ba935fb4a92e4fa64c1a28fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/PikachHat.png using Guid(d4829cc7ba935fb4a92e4fa64c1a28fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea669b6b7e8b0e3cd22547eaa42c317b') in 0.020746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009406 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Ear.png
+  artifactKey: Guid(8ef82e2780e30b74faa4837619493556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Ear.png using Guid(8ef82e2780e30b74faa4837619493556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91f5b37872e28cef0163c8b64f065b8') in 0.013176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002092 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm
+  artifactKey: Guid(c04a0b90c0c8fac45baf5b51b0e310fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm using Guid(c04a0b90c0c8fac45baf5b51b0e310fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32628f1aecacb358c0e370797cbaf756') in 0.000694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004214 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbx
+  artifactKey: Guid(caec57f8d8c749e46a2851950f1c6d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbx using Guid(caec57f8d8c749e46a2851950f1c6d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e672e871b614b3dd0f9b57f10af017b') in 0.112212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.018494 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c6fa21ee8f2cad1058d66e82dc46b2') in 0.000750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.018288 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/NakaHat.png
+  artifactKey: Guid(ee25f265ef1b0d944864cbeb78825ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/NakaHat.png using Guid(ee25f265ef1b0d944864cbeb78825ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f64fd17436dbcba5ed93aaf64c4a803') in 0.021173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017798 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/hrtMouth.png
+  artifactKey: Guid(9a697bcd8be651740bcf798726e03c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/hrtMouth.png using Guid(9a697bcd8be651740bcf798726e03c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad4be9b506d09516aa5d5015e028574') in 0.025608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018307 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.blend
+  artifactKey: Guid(89f948baed90869428d97a1faafec954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.blend using Guid(89f948baed90869428d97a1faafec954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a728af5474841b4a8e0e48ee7b6412c') in 0.171475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 115
+========================================================================
+Received Import Request.
+  Time since last request: 0.012139 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtEyes.png
+  artifactKey: Guid(c838868e7d9180e4c8137929a34895ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtEyes.png using Guid(c838868e7d9180e4c8137929a34895ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba0d1e37084388e5b09d00c8e5e3ec3') in 0.016044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003811 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtHands.png
+  artifactKey: Guid(dcde84b04828ff341868e8cd6316cf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtHands.png using Guid(dcde84b04828ff341868e8cd6316cf08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1351cc41c6dc49e05cdc65f1ad6ed0f9') in 0.013097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003224 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/HrtSkirt.png
+  artifactKey: Guid(444d17c687fa55e44b10d28949926359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/HrtSkirt.png using Guid(444d17c687fa55e44b10d28949926359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23591c50ad5b5102e62a892e9f649789') in 0.012410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014073 seconds.
+  path: Assets/hrtyOcarinaOfTime/pikach.fbm/Pikachu Ear.png
+  artifactKey: Guid(1d942a4a1bb70784ba4d31288260a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/pikach.fbm/Pikachu Ear.png using Guid(1d942a4a1bb70784ba4d31288260a733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffa05e156d0bfb857bad54a7c40e220') in 0.012245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013442 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/OmlHands.png
+  artifactKey: Guid(730dfc82f5eb6ec4792f5a96f2ff79f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/OmlHands.png using Guid(730dfc82f5eb6ec4792f5a96f2ff79f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4bc7b35c60d2fcb73d4a75ffb3fe87') in 0.011767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008619 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Nose.png
+  artifactKey: Guid(7d0d26b8322adb24d98a5b76095e6689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Nose.png using Guid(7d0d26b8322adb24d98a5b76095e6689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f74da6fda9b1709b6a5ff8b287479eb') in 0.015264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010095 seconds.
+  path: Assets/hrtyOcarinaOfTime/pikach.fbm/Pikachu Mouth.png
+  artifactKey: Guid(5ffa75647e30e514d82c39ea285fd0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/pikach.fbm/Pikachu Mouth.png using Guid(5ffa75647e30e514d82c39ea285fd0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e9bb69a5c8c48a245263e61ebd44ed') in 0.012317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011417 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/TextCom
+  artifactKey: Guid(f648804d151b56341b57913a78aac3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/TextCom using Guid(f648804d151b56341b57913a78aac3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7716e1e4acbb378a168e83e47431cd') in 0.000811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031386 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Mouth.png
+  artifactKey: Guid(434eeccd387e06340b1c2be00950a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Mouth.png using Guid(434eeccd387e06340b1c2be00950a357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afab593da7d437378d4c10bde35faf7') in 0.012132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.026026 seconds.
+  path: Assets/hrtyOcarinaOfTime/TextCom/ShoesBottom.png
+  artifactKey: Guid(b2a17e5f6fa13e94da4451d48c2b65cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/TextCom/ShoesBottom.png using Guid(b2a17e5f6fa13e94da4451d48c2b65cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c40d29deba73b404645de0382fe7f07') in 0.012144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025049 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm
+  artifactKey: Guid(a517e2e0429dc354aa98f10e93a4da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm using Guid(a517e2e0429dc354aa98f10e93a4da4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd33853a61b639e2112786698513bac5') in 0.000822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007012 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.blend1
+  artifactKey: Guid(63074cad2f018064eb6e431ad3d74dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.blend1 using Guid(63074cad2f018064eb6e431ad3d74dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c62c77a03b7dc5a34ff91d09d3dca6') in 0.001709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007601 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).mtl
+  artifactKey: Guid(499b71e7f9570b84792abc66fbb7aa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).mtl using Guid(499b71e7f9570b84792abc66fbb7aa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa81239c374787b8d19663e5dcbd3d5') in 0.001574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.149114 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Material6.png
+  artifactKey: Guid(249f4600f94d312469f8e7d64545026f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Material6.png using Guid(249f4600f94d312469f8e7d64545026f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d7370a1751c6ee6159b844815a1059') in 0.035361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024464 seconds.
+  path: Assets/hrtyOcarinaOfTime/pikach.fbm/Pikachu Nose.png
+  artifactKey: Guid(07b661c6c6b36d848abec3b085bcdaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/pikach.fbm/Pikachu Nose.png using Guid(07b661c6c6b36d848abec3b085bcdaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5af4ef1fdb2fb826ffb4664c68b3070') in 0.027007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018546 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/HrtHat.png
+  artifactKey: Guid(d3f4916655fad514aa4d83b4a4f1c6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/HrtHat.png using Guid(d3f4916655fad514aa4d83b4a4f1c6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc97de15529b174e9d1dc110721be2e') in 0.038595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Nintendo 64 - The Legend of Zelda Ocarina of Time - Temple of Time/TempleofTime.mtl
+  artifactKey: Guid(0dd650a3d542c2e49be2f9a5fc9ff869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nintendo 64 - The Legend of Zelda Ocarina of Time - Temple of Time/TempleofTime.mtl using Guid(0dd650a3d542c2e49be2f9a5fc9ff869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0a8bc47736119b23a21f154fd3fb80') in 0.001348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Pikachu Eyes.png
+  artifactKey: Guid(3a1fdc138c9ca0648a9dd3d73c27fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/Pikachu Eyes.png using Guid(3a1fdc138c9ca0648a9dd3d73c27fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2cf2f52f49113f4dee47da681f530d') in 0.021588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025359 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtHairs.png
+  artifactKey: Guid(81e7b8cc0385ed14a9eb0869fdd0887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtHairs.png using Guid(81e7b8cc0385ed14a9eb0869fdd0887e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83eee0f04b5888b50acaed8f15076bbe') in 0.037813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.042678 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/hrtRing.png
+  artifactKey: Guid(8b3573ae37ee2f446b57e9a04f7af792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/hrtRing.png using Guid(8b3573ae37ee2f446b57e9a04f7af792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492639a232a18e13f266b5e5a659e274') in 0.024411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029831 seconds.
+  path: Assets/hrtyOcarinaOfTime/naka.fbm/i_stex01a_0.png
+  artifactKey: Guid(48a4df6bce9406e4e92d6670187e9e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/naka.fbm/i_stex01a_0.png using Guid(48a4df6bce9406e4e92d6670187e9e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c07a16eb99599d260ad6b4edd67e4c') in 0.036784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.036661 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime
+  artifactKey: Guid(32599aed20514464fbd1a7e654fde577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime using Guid(32599aed20514464fbd1a7e654fde577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087d71db548d5bff8db2732abac2c178') in 0.000807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001991 seconds.
+  path: Assets/hrtyOcarinaOfTime/TextCom
+  artifactKey: Guid(1e507a0ae6a91044d846adddb76233b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/TextCom using Guid(1e507a0ae6a91044d846adddb76233b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bef62518986f84a24d693ddcf6fa090') in 0.000909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011505 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtMouth.png
+  artifactKey: Guid(f67c7510376ecc44cb5b0fd24a3d139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtMouth.png using Guid(f67c7510376ecc44cb5b0fd24a3d139b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e49bf3d56397f2036d7393087136c59') in 0.023491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006521 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk
+  artifactKey: Guid(a22359ee450b9514b953bac8e2e69273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk using Guid(a22359ee450b9514b953bac8e2e69273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d703002ed5593057a88596b76191c0') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.018044 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtRing.png
+  artifactKey: Guid(15e7d98681bb64343bd0ead1487a9d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtRing.png using Guid(15e7d98681bb64343bd0ead1487a9d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9511e360b2cd733f535b702c0b1c57b9') in 0.023233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.041385 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtMouth.png
+  artifactKey: Guid(0a04243924e49504a820488123038ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtMouth.png using Guid(0a04243924e49504a820488123038ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1729f689622cd6ba7c6a49c8b879cac1') in 0.018558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006044 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/NakaHat.png
+  artifactKey: Guid(f7fa3fa4316c08641aed41341e2aa19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/NakaHat.png using Guid(f7fa3fa4316c08641aed41341e2aa19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed5ba90e465d5248993b2ffb42e240a') in 0.034788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.031832 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtEars.png
+  artifactKey: Guid(ea8414accf93dea4e99f658782a8fdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtEars.png using Guid(ea8414accf93dea4e99f658782a8fdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae02513322dfe76578b40aa3dfc6b71') in 0.020668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006566 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/Tunic.png
+  artifactKey: Guid(3b7265bfed58f1e4ab97397bdfe43fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/Tunic.png using Guid(3b7265bfed58f1e4ab97397bdfe43fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5224024ba189d2c5a10e230ab52cef9b') in 0.032220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037137 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/Mouth.png
+  artifactKey: Guid(75ba7ff029f7e28409876385bf1e43f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/Mouth.png using Guid(75ba7ff029f7e28409876385bf1e43f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356b7f8efb82f6c728d1d99ea3a36797') in 0.024869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006956 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/HrtHat.png
+  artifactKey: Guid(b661f5abc12f5df4ca8ab0dd1c429469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/HrtHat.png using Guid(b661f5abc12f5df4ca8ab0dd1c429469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4315fc47bb8b32cabab384d4b3b66fca') in 0.022946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011742 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/README.txt
+  artifactKey: Guid(678b647ed413f5b4d812c4312a9fd895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/README.txt using Guid(678b647ed413f5b4d812c4312a9fd895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e8e58fa411b1132359ff070ffff7ee') in 0.004446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.048305 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).obj
+  artifactKey: Guid(10e8ddf60b4bed245853c921e7040535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).obj using Guid(10e8ddf60b4bed245853c921e7040535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affca423da3c6fab5c24c9f5ee8e713a') in 0.053254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.007013 seconds.
+  path: Assets/hrtyOcarinaOfTime/pikach.fbm/Material6.png
+  artifactKey: Guid(bdb57204db359934d9548fa95629afe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/pikach.fbm/Material6.png using Guid(bdb57204db359934d9548fa95629afe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cd1617c6e8c7e710db7471e474148d') in 0.022794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032598 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink/OmlHat.png
+  artifactKey: Guid(beb8ad0a38811564183834aa7bba855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink/OmlHat.png using Guid(beb8ad0a38811564183834aa7bba855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da6fde84ce5deb69249a5247831e271') in 0.027233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035969 seconds.
+  path: Assets/hrtyOcarinaOfTime/naka.fbm
+  artifactKey: Guid(aef2c416164b2bf499214eb17d26ea10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/naka.fbm using Guid(aef2c416164b2bf499214eb17d26ea10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c639de4b727e4cd4812481df603803') in 0.000681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005253 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/HrtSkirt.png
+  artifactKey: Guid(5c659c05ac607de4b89091942eddbaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/HrtSkirt.png using Guid(5c659c05ac607de4b89091942eddbaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886652b31025cc9052154784059b30eb') in 0.013371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017231 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtEyes.psd
+  artifactKey: Guid(9674aadf8d6a75343a7be4dc4a9dcfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtEyes.psd using Guid(9674aadf8d6a75343a7be4dc4a9dcfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ed99fb156918ad5d3d76a5f03f3a73') in 0.022873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006750 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Eyes.psd
+  artifactKey: Guid(08670709a5d68b841ab5f418af61808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Pikachu Eyes.psd using Guid(08670709a5d68b841ab5f418af61808c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e515bc2a048df5481a66ef747f41b35') in 0.013455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004067 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/hrtEars.png
+  artifactKey: Guid(d5f06ce65c4c1384aa6c6693d21ed42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/hrtEars.png using Guid(d5f06ce65c4c1384aa6c6693d21ed42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f382b4479319bfceddfafb4a8130cb52') in 0.012596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009116 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink
+  artifactKey: Guid(f7ec7b9824c83ed4da5a67d47d517db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink using Guid(f7ec7b9824c83ed4da5a67d47d517db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffa98fcee9aa59115477563708c15af') in 0.000946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021179 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.blend1
+  artifactKey: Guid(bac0d3b4bda61f8498fa1a4d37a9b460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.blend1 using Guid(bac0d3b4bda61f8498fa1a4d37a9b460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27529b671386c22950e749c5d74f31eb') in 0.001190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022488 seconds.
+  path: Assets/hrtyOcarinaOfTime/pikach.fbm/PikachHat.png
+  artifactKey: Guid(689972d643f433f40a2ccb5c41b0b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/pikach.fbm/PikachHat.png using Guid(689972d643f433f40a2ccb5c41b0b391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54278f129462098882ee0a23a561be68') in 0.020585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006649 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/HrtSword.png
+  artifactKey: Guid(6c6788e58591f6e4a8871d5e67fca52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/HrtSword.png using Guid(6c6788e58591f6e4a8871d5e67fca52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368daba4eb6c3a06948d326bc96b133f') in 0.012358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004668 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtRing.png
+  artifactKey: Guid(c053b5b035ec66646bc7a930e6cf69da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtRing.png using Guid(c053b5b035ec66646bc7a930e6cf69da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f03a90c752cb3661d1da4a6f261991') in 0.015868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002365 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka
+  artifactKey: Guid(02e30d8e05e25cc4ebc84eb3ac6b7a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka using Guid(02e30d8e05e25cc4ebc84eb3ac6b7a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e5679bd93e76e461d3469b7a434519') in 0.001053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008369 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtHands.png
+  artifactKey: Guid(99e3e841f1fdacb40b9d0e3a6558af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/hrtHands.png using Guid(99e3e841f1fdacb40b9d0e3a6558af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7525721215182bd56e2ff1d298ba82dd') in 0.014000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006188 seconds.
+  path: Assets/hrtyOcarinaOfTime/pikach.fbm/Pikachu Eyes.png
+  artifactKey: Guid(776ea529c5f08aa458435543f422fbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/pikach.fbm/Pikachu Eyes.png using Guid(776ea529c5f08aa458435543f422fbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3953aa2eae6252db6d2b8964ca22da31') in 0.013227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.056993 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/TextCom/ShoesBottom.png
+  artifactKey: Guid(c6ae037bd6b046c4283a428d85884d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/TextCom/ShoesBottom.png using Guid(c6ae037bd6b046c4283a428d85884d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a362defc245cb837875ad3bb6d8a7c') in 0.012933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011767 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/Ocarina of Time/i_stex01a_0.png
+  artifactKey: Guid(bb4dd9c34faa82742b3175a98234abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/Ocarina of Time/i_stex01a_0.png using Guid(bb4dd9c34faa82742b3175a98234abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3194ffedd37191704cc3a14575e757ad') in 0.014755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004556 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/TextCom/ShoesTop.png
+  artifactKey: Guid(315852c6b37dec8409fa873b51946706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/TextCom/ShoesTop.png using Guid(315852c6b37dec8409fa873b51946706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6d2f7a2a34e19c024596d174e79077') in 0.012360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004163 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtHairs.png
+  artifactKey: Guid(77b279af5026e4644a5a2cb53e8bbc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtHairs.png using Guid(77b279af5026e4644a5a2cb53e8bbc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb14b444d17318e91145b8e5eee39624') in 0.020259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004293 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/HrtSword.png
+  artifactKey: Guid(d30e9aac21f0d2c4ca1f9e54968301a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/HrtSword.png using Guid(d30e9aac21f0d2c4ca1f9e54968301a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda97d2cbd423aeea75d58f53958acd6') in 0.012779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.026732 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/ShoesBottom.png
+  artifactKey: Guid(cf4e2765bb256bb4fae96e32a6ef6a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/ShoesBottom.png using Guid(cf4e2765bb256bb4fae96e32a6ef6a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5408af7e65529dc6b1209c9452b5de53') in 0.041503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005376 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/pikach.blend
+  artifactKey: Guid(7728c97f85977a849a316fe7b99c8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/pikach.blend using Guid(7728c97f85977a849a316fe7b99c8bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eef0ec0e2233ee9c8ebb5f27e0e4243') in 0.147371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.005331 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)
+  artifactKey: Guid(fc880b8b0b3a02f439eb353dc05e5b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly) using Guid(fc880b8b0b3a02f439eb353dc05e5b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525fa0b1530a23dde13c2721fdba9151') in 0.001017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012353 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/ShoesTop.png
+  artifactKey: Guid(f54d989b532d83347a8bc9857f15c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/ShoesTop.png using Guid(f54d989b532d83347a8bc9857f15c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed44e82597b0c2267f9846ff89e081f4') in 0.012586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016559 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/i_stex01a_0.png
+  artifactKey: Guid(0019309d5ef908247a559f7e4b894e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/naka.fbm/i_stex01a_0.png using Guid(0019309d5ef908247a559f7e4b894e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269ddd5893b5868127262f368c3d374a') in 0.012854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.046817 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/OmlEyes.png
+  artifactKey: Guid(444ed092217f0c54cb64353ae8cd0d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbm/OmlEyes.png using Guid(444ed092217f0c54cb64353ae8cd0d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f3b74b54beff7e9fe8d259d7fd397c') in 0.013023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004548 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtMouth.png
+  artifactKey: Guid(333711caf4e76834fb2b1589c0139787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtMouth.png using Guid(333711caf4e76834fb2b1589c0139787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd31155df9a6bb35a84ddf54ef6b087') in 0.012906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015647 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/PikachHat.png
+  artifactKey: Guid(c990f76c061a2f14d910eff5b719d16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/PikachHat.png using Guid(c990f76c061a2f14d910eff5b719d16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ad02c2b1f1a027cb4e8355064d2f5b') in 0.023675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002967 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/HrtNose.png
+  artifactKey: Guid(6f9fa858795094d45aa6171612abe6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/HrtNose.png using Guid(6f9fa858795094d45aa6171612abe6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4860a473d37f3a09ea8e0dc084f3892a') in 0.011506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019129 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/ShoesTop.png
+  artifactKey: Guid(ae8028cdd9feff845a7642eada2e4739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/ShoesTop.png using Guid(ae8028cdd9feff845a7642eada2e4739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147b45acde88d79a08107d7f9b9f6ac0') in 0.013490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006042 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/naka.fbm
+  artifactKey: Guid(525c6d7a98b63714d8f0d68b6cf2f3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/naka.fbm using Guid(525c6d7a98b63714d8f0d68b6cf2f3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0a54336ee66c7a748ae3c0cc646589') in 0.001686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004957 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/PikachTunic.png
+  artifactKey: Guid(f2892116db538484c82029f0a0705f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm/PikachTunic.png using Guid(f2892116db538484c82029f0a0705f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27adad0eaaeebf53aacfce5d7be5d2ce') in 0.020132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.017009 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/hrtEyes.png
+  artifactKey: Guid(06935f0f453a9844999d72f175461cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/hrtEyes.png using Guid(06935f0f453a9844999d72f175461cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f23ebd376d370102a87c8c851c64a02') in 0.021461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002875 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtSkirt.png
+  artifactKey: Guid(c519c99c135168543a616ede18b054eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtSkirt.png using Guid(c519c99c135168543a616ede18b054eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c50286a36ccafa70d7900aeefe894e') in 0.011544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002956 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/ShoesBottom.png
+  artifactKey: Guid(2886cfa48b2df1948913fb48e09f2fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk.fbm/ShoesBottom.png using Guid(2886cfa48b2df1948913fb48e09f2fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54ac8f14618e0b065d4834c0c84c4b6') in 0.011688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.038806 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtHat.png
+  artifactKey: Guid(7242b81ee4a18d444893db1ba6bbea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtHat.png using Guid(7242b81ee4a18d444893db1ba6bbea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b2e581d6f79dfc81450ec1184d3d18') in 0.013280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004078 seconds.
+  path: Assets/hrtyOcarinaOfTime/naka.fbm/NakaTunic.png
+  artifactKey: Guid(81069450a10c6e74ab047c91accb6819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/naka.fbm/NakaTunic.png using Guid(81069450a10c6e74ab047c91accb6819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7414c18b22355249a33b14c6487ac8') in 0.014971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006649 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/HrtNose.png
+  artifactKey: Guid(90cc3a11923b3de40b8890da1a4e06af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/HrtNose.png using Guid(90cc3a11923b3de40b8890da1a4e06af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e6ebbb45ed306701a32c2581d6d0f5') in 0.011698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006933 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtEars.png
+  artifactKey: Guid(70bc59c65e0549a4e93bdf472a2861e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtEars.png using Guid(70bc59c65e0549a4e93bdf472a2861e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e609eaf8dce1f3edd1b9096013ff2316') in 0.012329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008436 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbx
+  artifactKey: Guid(79a721057763bb441938c9eadba7087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink.fbx using Guid(79a721057763bb441938c9eadba7087e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56ba26b6860012bac4df703453c5cf9') in 0.112010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 0.002493 seconds.
+  path: Assets/hrtyOcarinaOfTime/pikach.fbm/Material4.png
+  artifactKey: Guid(fa403458f17024b42bc5e69874bd6980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/pikach.fbm/Material4.png using Guid(fa403458f17024b42bc5e69874bd6980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802fce300ebdcc642577aa1533cdf50a') in 0.020658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003014 seconds.
+  path: Assets/hrtyOcarinaOfTime/Naka/Ocarina of Time/ocarinaoftime.mtl
+  artifactKey: Guid(f164c2b1c938b714a8c60f69aa9fae95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Naka/Ocarina of Time/ocarinaoftime.mtl using Guid(f164c2b1c938b714a8c60f69aa9fae95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daaee6d1a9d83c16f5232c85dd49af7') in 0.001136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007351 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).blend
+  artifactKey: Guid(dbf89da4a8b727947a525e167c23394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).blend using Guid(dbf89da4a8b727947a525e167c23394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d76e0a649153e78eb52110769f94ed') in 0.040525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.016753 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/HrtHat.png
+  artifactKey: Guid(d1b7d2f8861e2244981f1d1a3b6443a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/HrtHat.png using Guid(d1b7d2f8861e2244981f1d1a3b6443a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a4890a38534d5d646e9a66d8df2579') in 0.012268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002771 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtNose.png
+  artifactKey: Guid(0c476cbf16e2c61419137f490790a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/HrtNose.png using Guid(0c476cbf16e2c61419137f490790a1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9645cd2c7bc62b9aa546cf052135f92') in 0.011655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.021591 seconds.
+  path: Assets/hrtyOcarinaOfTime/Pikach/Pikachu Eyes.png
+  artifactKey: Guid(473d500fd8f7970429d96f3100a3a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Pikach/Pikachu Eyes.png using Guid(473d500fd8f7970429d96f3100a3a198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9e3004170df5880441a4eb27851cab') in 0.012223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013723 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/NakaTunic.png
+  artifactKey: Guid(2d494b990328a7446beda45909b561c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/NakaTunic.png using Guid(2d494b990328a7446beda45909b561c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b704ad63c53b33f23a92601368e9b1') in 0.011883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006872 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlMouth.png
+  artifactKey: Guid(bae7fb02868bd314a8b0392730849eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Omelink/OmlMouth.png using Guid(bae7fb02868bd314a8b0392730849eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6eeca6608ea399d72a7c4ff6252e27') in 0.013225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003897 seconds.
+  path: Assets/hrtyOcarinaOfTime/naka.fbm/NakaHat.png
+  artifactKey: Guid(38a660af5a7f0824fbe9de028d0616ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/naka.fbm/NakaHat.png using Guid(38a660af5a7f0824fbe9de028d0616ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bdf3d5784e815a5926527c05e6ed71') in 0.013037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003761 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtEyes.png
+  artifactKey: Guid(fa49551dfce68c1419ad9671b0cbe994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm/hrtEyes.png using Guid(fa49551dfce68c1419ad9671b0cbe994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f521b09c0681f4844d142ee34c13c031') in 0.012407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002880 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk/hrtHairs.png
+  artifactKey: Guid(d2c4fc99dbd95434f8982dd74ad7cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk/hrtHairs.png using Guid(d2c4fc99dbd95434f8982dd74ad7cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2396a8a6c0df8c2a61017cf074a52695') in 0.020046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003020 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/Skin&Ears.png
+  artifactKey: Guid(b0524b327131ce040b842545a7c57183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/Skin&Ears.png using Guid(b0524b327131ce040b842545a7c57183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b97deb8d951e55af9cf310adb689492') in 0.011803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002140 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm
+  artifactKey: Guid(5f3124f16bb5b064b9f98a0eb929cdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/pikach.fbm using Guid(5f3124f16bb5b064b9f98a0eb929cdac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd0c38175f5fe924caa1336727861b3') in 0.000677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008396 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/PikachHat.png
+  artifactKey: Guid(362c39401766de148b6728d1dc27295d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/PikachHat.png using Guid(362c39401766de148b6728d1dc27295d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b161910d7dcff469c058607b12438a4') in 0.015126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004464 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Material4.png
+  artifactKey: Guid(713af7796035359428fc69df7d310d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Material4.png using Guid(713af7796035359428fc69df7d310d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c7253d69bf51ea5ebd064595e983ae') in 0.021101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002968 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtEyes.png
+  artifactKey: Guid(ce0be0ea04ef66040834e162ea014eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtEyes.png using Guid(ce0be0ea04ef66040834e162ea014eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd176248b70a86618ef6fe86b798b919c') in 0.020077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006723 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtEars.png
+  artifactKey: Guid(d926a6e62e5b98046b3de37069f399d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtEars.png using Guid(d926a6e62e5b98046b3de37069f399d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21863c03c82277217ce6a725623d896') in 0.012287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002948 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtHairs.psd
+  artifactKey: Guid(c02f54688fa835749a33b3d3c3adbb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Hortlynk/hrtHairs.psd using Guid(c02f54688fa835749a33b3d3c3adbb84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd337e28ef3ac61909c9d9a445f23a97f') in 0.019359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006737 seconds.
+  path: Assets/hrtyOcarinaOfTime/Omelink.blend1
+  artifactKey: Guid(3382e67d630267d49b315ce7c3144153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Omelink.blend1 using Guid(3382e67d630267d49b315ce7c3144153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a97f44d73264aebc731af5665aef1b5') in 0.001350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003062 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach
+  artifactKey: Guid(d4c93c4b505307440a547d48558a45d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach using Guid(d4c93c4b505307440a547d48558a45d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4249762fda0d36d8f19277a510de7af') in 0.000583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011818 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)
+  artifactKey: Guid(8291cfcf81307fe4196c2985b54372de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly) using Guid(8291cfcf81307fe4196c2985b54372de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a380a70afbd009352fc7d9363d619671') in 0.000745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010217 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/Ocarina of Time/ocarinaoftime.obj
+  artifactKey: Guid(a3a97f028ada5b34e93e40af13a10569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/Ocarina of Time/ocarinaoftime.obj using Guid(a3a97f028ada5b34e93e40af13a10569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66bb4786e94a7a180a6524051f9cbaf') in 0.042152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.003366 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).blend
+  artifactKey: Guid(fc6948a43bbc36849b8064b99e4089f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).blend using Guid(fc6948a43bbc36849b8064b99e4089f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc43aeb109da963dea119df221d09c5b') in 0.038613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.003935 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).mtl
+  artifactKey: Guid(4153b978e799b09409ecd31cc6a8a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Pikach/Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)/Deku Shield (Hi-Poly).mtl using Guid(4153b978e799b09409ecd31cc6a8a7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68822bdca051a1e1068983907fa381ff') in 0.001176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005134 seconds.
+  path: Assets/Young Link/hrtyOcarinaOfTime/Naka/Ocarina of Time
+  artifactKey: Guid(3b2eedaf24b86684888d440f5e34b83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Young Link/hrtyOcarinaOfTime/Naka/Ocarina of Time using Guid(3b2eedaf24b86684888d440f5e34b83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730debff6c61d35c9d929a7ac42d0901') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001911 seconds.
+  path: Assets/hrtyOcarinaOfTime/Hortlynk.fbm
+  artifactKey: Guid(62314ca181041ae4ca731418ade4dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hrtyOcarinaOfTime/Hortlynk.fbm using Guid(62314ca181041ae4ca731418ade4dc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae40fbc7284de04a807fd893b96f60e1') in 0.000910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
