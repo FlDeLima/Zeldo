@@ -63,6 +63,7 @@
   <ItemGroup>
     <None Include="Assets\Shader\VertexShader.shader" />
     <None Include="Assets\PNJ\hrtyOcarinaOfTime\Pikach\Nintendo 64 - The Legend of Zelda Ocarina Of Time - Deku Shield (Hi Poly)\README.txt" />
+    <None Include="Assets\PNJ\princessrutoadult\assets\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
