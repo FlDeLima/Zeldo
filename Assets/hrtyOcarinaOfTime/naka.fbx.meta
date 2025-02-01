@@ -3,7 +3,72 @@ guid: db21e46a3d7c96b4bace2cfe6227f481
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Belt
+    second: {fileID: 2100000, guid: 1beeaa890ccea644b858cf0f93c80f67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeltBuckle
+    second: {fileID: 2100000, guid: 7db8e927e89251f42b9b330f7be3678f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BootsBottom
+    second: {fileID: 2100000, guid: 266a94a9911ea734ebf168ed9d511d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BootsTop
+    second: {fileID: 2100000, guid: ece37387522229c49bc5d839d3b77aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face
+    second: {fileID: 2100000, guid: 4739f80277f64f0459942d1f2bb9b2e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hands
+    second: {fileID: 2100000, guid: 435cd2fe8a07dff45838a12bd106f451, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouth
+    second: {fileID: 2100000, guid: 4e8a36a187d9ee24fb8260910b4da6b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NakaHair
+    second: {fileID: 2100000, guid: da80a9bc09a274c4c8c2077b6e783960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NakaHat
+    second: {fileID: 2100000, guid: d31b1d7f9f4d2d6479d4ba588257d4e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NakaTunic
+    second: {fileID: 2100000, guid: fdbf936410911ef41800fe7902ed8f23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nose
+    second: {fileID: 2100000, guid: 22ced3baeb2617d47bfab82177a59e80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: c6946b543f33b2545b20788f2601a039, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_02CE20C2
+    second: {fileID: 2100000, guid: 76e253b7b25ca3b458fe2214006a24d2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

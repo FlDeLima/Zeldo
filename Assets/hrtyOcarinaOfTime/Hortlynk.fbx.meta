@@ -3,7 +3,82 @@ guid: c5d5e5fd9cb324b40b0265cae5a4cad1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Belt
+    second: {fileID: 2100000, guid: 1beeaa890ccea644b858cf0f93c80f67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeltFront
+    second: {fileID: 2100000, guid: 7db8e927e89251f42b9b330f7be3678f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blade
+    second: {fileID: 2100000, guid: 778d63c07613ba5438dc8234ccea7568, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ears_Arms_Legs
+    second: {fileID: 2100000, guid: 95ab91af2c1d4054eb12c44d173f5417, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hands
+    second: {fileID: 2100000, guid: 1b9235e2b102c6749a989af2cd35cfb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: eaf6a2b40338a344ea2305f1798e9b45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HrtHairs
+    second: {fileID: 2100000, guid: f30f7498d9b080e479be587aab32f3ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouth
+    second: {fileID: 2100000, guid: 427ae6a753a5a33469a0d95c99dff59d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nose
+    second: {fileID: 2100000, guid: 22ced3baeb2617d47bfab82177a59e80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RingGold
+    second: {fileID: 2100000, guid: 58cc3ecaff8cb3a4a9332859bc221c32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoesBottom
+    second: {fileID: 2100000, guid: 266a94a9911ea734ebf168ed9d511d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShoesTop
+    second: {fileID: 2100000, guid: ece37387522229c49bc5d839d3b77aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skirt
+    second: {fileID: 2100000, guid: 017804025068c2a4b879c228a7ca4126, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sword
+    second: {fileID: 2100000, guid: 320b370dd4655754aa8f473196e2a8e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hrtEyes
+    second: {fileID: 2100000, guid: c00fe87dd1dba654aa68a745175ab74a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

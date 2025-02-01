@@ -3,7 +3,72 @@ guid: 565e1a5d5e94650459900779f071a43f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Belt
+    second: {fileID: 2100000, guid: 1beeaa890ccea644b858cf0f93c80f67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeltBuckle
+    second: {fileID: 2100000, guid: 7db8e927e89251f42b9b330f7be3678f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BootsBottom
+    second: {fileID: 2100000, guid: 266a94a9911ea734ebf168ed9d511d4d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BootsTop
+    second: {fileID: 2100000, guid: ece37387522229c49bc5d839d3b77aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 7d826343cc2365a4ab0011a7df994be1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: 02044a625654f814482f9c955ea18770, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PikachEar
+    second: {fileID: 2100000, guid: bda590e2a4912f443bd7da6b0666ee28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PikachEyes
+    second: {fileID: 2100000, guid: 7ffebdbab2a2cf1418523e74343efa78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PikachHat
+    second: {fileID: 2100000, guid: 195aeb1322360b34f932573b2598e8bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PikachMouth
+    second: {fileID: 2100000, guid: ebb847de89f002940a9f155c5bfac25c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PikachNose
+    second: {fileID: 2100000, guid: 5a7b962b427e8124f9febe8ab40dc407, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PikachSkin
+    second: {fileID: 2100000, guid: 344defa737dc4484e9fcbbc5e1211bf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PikachTunic
+    second: {fileID: 2100000, guid: ddfc1c3ab2024ba4f842e623918c670d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -99,7 +164,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
