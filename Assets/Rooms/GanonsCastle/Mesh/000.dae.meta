@@ -57,6 +57,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: material-015FE184
+    second: {fileID: 2100000, guid: a317b47c356f80b42b7e5285042bc3e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: material-01629AFE
     second: {fileID: 2100000, guid: 243c5d3a1bcd37146be9ecb767feff6b, type: 2}
   - first:
@@ -89,6 +94,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: material-028F0F50
     second: {fileID: 2100000, guid: be145f10dad2f2942a82fdb3d6479ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material-02C84B79
+    second: {fileID: 2100000, guid: 5ab56543dd45f8d45b9fa37a87ed2307, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -126,6 +136,8 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
